@@ -1,0 +1,16 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+#key : ssc
+#name : React Simple Stateless Component
+#group : Components
+# --
+import React, { PropTypes } from 'react';
+
+const ${1:`(file-name-nondirectory (file-name-sans-extension (buffer-file-name)))`} = (props) => (
+  $0
+);
+
+$1.propTypes = {};
+
+$1.defaultProps = {};
+
+export default $1;

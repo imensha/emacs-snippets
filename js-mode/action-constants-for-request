@@ -1,0 +1,8 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+#key : rac
+#name : Request Action Constants
+#group : Redux.Actions
+# --
+export const ${1:$$(upcase yas-text)} = prefix('$1');
+export const $1_SUCCESS = prefix('$1_SUCCESS');
+export const $1_FAILURE = prefix('$1_FAILURE');

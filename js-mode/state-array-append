@@ -1,0 +1,6 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+#key : asa
+#name : Append Redux State Array
+#group : Redux.Reducers
+# --
+return [...state, $0];

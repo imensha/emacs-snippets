@@ -1,0 +1,6 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+#key : psa
+#name : Prepend Redux State Array
+#group : Redux.Reducers
+# --
+return [$0, ...state];

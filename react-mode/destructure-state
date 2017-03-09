@@ -1,0 +1,5 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+#key : dsstate
+#name : State Destructure
+# --
+const { $0 } = this.state;

@@ -1,0 +1,8 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+#key : so
+#name : Assign Reducer State Object
+#group : Redux.Reducers
+# --
+return assign({}, state, {
+  $0
+});

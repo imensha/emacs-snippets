@@ -1,0 +1,16 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+#key : saga
+#name : Saga Template
+# --
+import { take, takeEvery, takeLatest } from 'redux-saga/effects';
+
+import * as ${1:Actions} from '${2:./actions}';
+import * as ${3:ActionTypes} from '${4:./constants}';
+
+export default function* saga() {
+  try {
+    yield [$0];
+  } catch (err) {
+    console.log(err);
+  }
+}

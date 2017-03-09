@@ -1,0 +1,9 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+#key : sta
+#name : Slice Redux State Array
+#group : Redux.Reducers
+# --
+return [
+  ...state.slice(0, $1),
+  ...state.slice($1 + 1),
+];

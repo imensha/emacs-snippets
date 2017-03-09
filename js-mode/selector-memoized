@@ -1,0 +1,9 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+#key : msel
+#name : Redux Store Memoized Selector
+#group : Redux.Selectors
+# --
+export const get$1 = createSelector(
+  [$2],
+  ($3) => $0
+);

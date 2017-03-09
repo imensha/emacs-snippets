@@ -1,0 +1,11 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+#key : act
+#name : Redux Action
+#group : Redux.Actions
+# --
+export function $1($2) {
+  return {
+    type: ${3:ActionTypes.}${4:$$(upcase yas-text)},
+    ${2:$(replace-regexp-in-string "," ",\n" yas-text)},
+  };
+}

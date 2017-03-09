@@ -1,0 +1,5 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+#key : dso
+#name : Object Destructure
+# --
+const { $0 } = $1;

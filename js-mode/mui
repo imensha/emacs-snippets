@@ -1,0 +1,6 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+#key : mui
+#name : Material UI import
+#group : Imports
+# --
+import $1 from 'material-ui/$1';$0

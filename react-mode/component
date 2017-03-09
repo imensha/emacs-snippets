@@ -1,0 +1,24 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+#key : c
+#name : React Component Class
+#group : Components
+# --
+import React, { PropTypes, Component } from 'react';
+
+class ${1:`(file-name-nondirectory (file-name-sans-extension (buffer-file-name)))`} extends Component {
+  contructor(props) {
+    super(props);
+  }
+
+  render() {
+    return (
+      $0
+    );
+  }
+}
+
+$1.propTypes = {};
+
+$1.defaultProps = {};
+
+export default $1;

@@ -1,0 +1,22 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+#key : mod
+#name : Module Index File Template
+# --
+import { assign } from 'lodash';
+
+import * as actions from './actions';
+import * as constants from './constants';
+import * as containers from './containers/';
+import * as components from './components/';
+import reducer from './reducer';
+import saga from './sagas';
+import select from './selectors';
+
+export default {
+  actionts,
+  constants,
+  components: assign({}, containers, components),
+  reducer,
+  saga,
+  select,
+};

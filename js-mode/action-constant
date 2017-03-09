@@ -1,0 +1,6 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+#key : ac
+#name : Action Constant
+#group : Redux.Actions
+# --
+export const ${1:$$(upcase yas-text)} = prefix('$1');

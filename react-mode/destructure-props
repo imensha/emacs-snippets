@@ -1,0 +1,5 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+#key : dsprops
+#name : Props Destructure
+# --
+const { $0 } = this.props;

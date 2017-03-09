@@ -1,0 +1,6 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+#key : sel
+#name : Redux Store Selector
+#group : Redux.Selectors
+# --
+export const get$1 = state => state${2:[NAME]}.$0;
