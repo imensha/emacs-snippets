@@ -6,7 +6,7 @@
 import React, { PropTypes, Component } from 'react';
 
 class ${1:`(file-name-nondirectory (file-name-sans-extension (buffer-file-name)))`} extends Component {
-  contructor(props) {
+  constructor(props) {
     super(props);
   }
 
