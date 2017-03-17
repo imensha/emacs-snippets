@@ -13,7 +13,7 @@ import saga from './sagas';
 import select from './selectors';
 
 export default {
-  actionts,
+  actions,
   constants,
   components: assign({}, containers, components),
   reducer,
