@@ -3,7 +3,8 @@
 #name : React PureComponent Class
 #group : Components
 # --
-import React, { PropTypes, PureComponent } from 'react';
+import React, { PureComponent } from 'react';
+import PropTypes from 'prop-types';
 
 class ${1:`(file-name-nondirectory (file-name-sans-extension (buffer-file-name)))`} extends PureComponent {
   constructor(props) {
