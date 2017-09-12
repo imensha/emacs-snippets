@@ -1,0 +1,34 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+#key : cpc
+#name : React Redux-Connected PureComponent Class
+#group : Components
+# --
+import React, { PureComponent } from 'react';
+import PropTypes from 'prop-types';
+import { connect } from 'react-redux';
+import { compose } from 'recompose';
+
+class ${1:`(file-name-nondirectory (file-name-sans-extension (buffer-file-name)))`} extends PureComponent {
+  constructor(props) {
+    super(props);
+  }
+
+  render() {
+    return (
+      $0
+    );
+  }
+}
+
+$1.propTypes = {};
+
+$1.defaultProps = {};
+
+const mapStateToProps = state => ({});
+const actions = {};
+
+const enhance = compose(
+  connect(mapStateToProps, actions)
+);
+
+export default enhance($1);
